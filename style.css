@@ -1,7 +1,7 @@
 body {
   font-family: 'Montserrat', Arial, sans-serif;
-  background-color: #fff0f6;
-  color: #880e4f;
+  background-color: #f0f0f0;
+  color: #111;
   margin: 0;
   padding: 0;
 }
@@ -20,7 +20,7 @@ body {
 }
 .block {
   position: absolute;
-  background: #ec407a;
+  background: #111;
 }
 .block-tl { top: 0; left: 0; width: 80px; height: 80px; }
 .block-tr { top: 0; right: 0; width: 120px; height: 60px; }
@@ -38,23 +38,21 @@ body {
   font-weight: 700;
   letter-spacing: 0.05em;
   margin: 0 0 10px 0;
-  color: #d81b60;
 }
 .hero-sub {
   font-size: 1.3rem;
   font-weight: 400;
   margin-bottom: 20px;
   letter-spacing: 0.1em;
-  color: #ad1457;
 }
 .hero-desc {
   font-size: 1rem;
-  color: #880e4f;
+  color: #444;
   margin-bottom: 0;
 }
 
 .showcase {
-  background: #fff0f6;
+  background: #f0f0f0;
   padding: 50px 0 30px 0;
   text-align: center;
 }
@@ -63,7 +61,6 @@ body {
   font-weight: 700;
   margin-bottom: 30px;
   letter-spacing: 0.08em;
-  color: #d81b60;
 }
 .showcase-grid {
   display: grid;
@@ -74,15 +71,14 @@ body {
 }
 .showcase-item {
   background: #fff;
-  border: 2px solid #ec407a;
+  border: 2px solid #111;
   border-radius: 8px;
   padding: 20px;
-  box-shadow: 0 2px 8px rgba(236, 64, 122, 0.08);
-  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  transition: transform 0.2s;
 }
 .showcase-item:hover {
   transform: translateY(-8px) scale(1.03);
-  box-shadow: 0 6px 24px rgba(236, 64, 122, 0.18);
 }
 .showcase-item img {
   width: 100%;
@@ -90,22 +86,20 @@ body {
   object-fit: cover;
   border-radius: 4px;
   margin-bottom: 15px;
-  border: 2px solid #f06292;
 }
 .showcase-item h3 {
   font-size: 1.2rem;
   font-weight: 700;
   margin: 0 0 8px 0;
-  color: #ad1457;
 }
 .showcase-item p {
   font-size: 1rem;
-  color: #880e4f;
+  color: #333;
   margin: 0;
 }
 
 footer {
-  background: #d81b60;
+  background: #111;
   color: #fff;
   padding: 25px 0;
   text-align: center;
